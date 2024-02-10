@@ -22,7 +22,7 @@ import path from 'path'
 
 
 //middleware
-import errorHandlerMiddleware from './middleware/ErrorHandleMiddleware.js';
+import errorHandlerMiddleware from './middleware/errorHandlerMiddleware.js';
 import { authenticateUser } from './middleware/authMiddleware.js';
 
 //cloudinary 
