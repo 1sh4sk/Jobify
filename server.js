@@ -58,7 +58,7 @@ app.use('/api/v1/users', authenticateUser, userRouter);
 app.use('/api/v1/auth', authRouter);
 
 app.get('*', (req, res) => {
-    res.sendFile(path - resolve(__dirname, './public', 'index.html'))
+    res.sendFile(path.resolve(__dirname, './public', 'index.html'))
 })
 
 //NOT FOUND ERROR PAGE MESSAGE MUST BE PLACED BEFORE APP.LISTEN IF THE MIDDLEWARE IS PRESENT THE PLACE IT BEFORE MIDDLEWARE
